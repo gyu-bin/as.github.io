@@ -11,6 +11,15 @@ body
  overflow: hidden;   
  background:#47C83E;
 }
+section .bys
+{
+    color:black;
+    position: absolute;
+    display: flex;
+   text-align: right;
+   z-index: 1;
+   height: 400px;
+}
 section
 {
     display: flex;
@@ -79,7 +88,7 @@ section i
 section i:nth-child(even)
 {
     background: transparent;
-    border: 1px solid #ff2a2a;
+    border: 1px solid #fff;
 }
 @keyframes animate
 {
@@ -98,7 +107,7 @@ section i:nth-child(even)
     }
     100%
     {
-        transform: translateY(2000%);
+        transform: translateY(2500%);
         opacity: 0;
     }
 }
